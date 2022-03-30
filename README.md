@@ -55,6 +55,12 @@ Para comprobar si tenemos composer instalado iremos a moba y introducimos el com
 
 Ahora procederemos a instalar laravel, nos ponemos en siguiente ruta e introducimos el comando que aparece en la imagen
 
+> composer global require laravel/installer
+
+![image](https://user-images.githubusercontent.com/73592097/160855614-7101bc91-7987-4a9c-84f8-e25fb55dd907.png)
+
+
+ Creamos un nuevo proyecto llamado mi-proyecto con el comando create-project de Composer a partir del paquete laravel/laravel, usando la opción --prefer-dist para que Composer descargue los archivos del repositorio de distribución.
 
 > composer config -g repo.packagist composer https://mirrors.aliyun.com/composer/
 
